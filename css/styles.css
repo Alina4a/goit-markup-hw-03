@@ -7,8 +7,33 @@ a {
     text-decoration: none;
 }
 
+body {
+    font-family: "Raleway", sans-serif;
+    color: #2e2f42;
+    background-color: #fafafa;
+}
+
 button {
     cursor: pointer;
+    width: Hug (169px);
+    height: Hug (56px);
+    top: 88px;
+    left: 20px;
+    padding: 16px, 32px, 16px, 32px;
+    border: none;
+    border-radius: 4px; 
+    gap: 10px;
+    color: white;
+    background: #404BBF;
+}
+
+button:hover,
+button:focus {
+    width: Hug (170px);
+    height: Hug (51px);
+    border: none;
+    color: white;
+    background: #4D5AE5;
 }
 
 img {
@@ -22,9 +47,58 @@ img {
         line-height: 1.16667;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #2e2f42;
+        
 }
 
 .text-blau {
     color: #4d5ae5;
+}
+
+.contact {
+    font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.16667;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+       
+}
+
+.contact:hover,
+.contact:focus {
+    color: #404BBF;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: #404BBF;
+}
+
+.main-title {
+    font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07143;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #fff;
+}
+
+.first-section {
+    background-color: #2e2f42;
+}
+
+.benefits {
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+
+.benefits-description {
+    font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
 }
