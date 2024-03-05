@@ -1,3 +1,4 @@
+/* ========== Common Style ========== */
 ul,
 ol {
     list-style-type: none;
@@ -9,8 +10,10 @@ a {
 
 body {
     font-family: "Raleway", sans-serif;
+    font-weight: 500;
     color: #2e2f42;
     background-color: #fafafa;
+    
 }
 
 button {
@@ -39,6 +42,10 @@ button:focus {
 img {
     display: block;
 }
+
+/* ========== /Common Style ========== */
+
+/* ========== Page header Style ========== */
 
 .logo {
     font-family: "Raleway", sans-serif;
@@ -74,23 +81,33 @@ img {
     color: #404BBF;
 }
 
+/* ========== /Page header Style ========== */
+
+/* ========== Hero section Style ========== */
 .main-title {
     font-family: "Roboto", sans-serif;
         font-weight: 700;
         font-size: 56px;
         line-height: 1.07143;
         letter-spacing: 0.02em;
-        text-align: center;
-        color: #fff;
+        color: #ffff;
+    text-align: center;
+        
 }
 
-.first-section {
+.hero {
     background-color: #2e2f42;
 }
 
+/* ========== /Hero section Style ========== */
+
+/* ========== Benefits section Style ========== */
 .benefits {
+
+}
+
+.benefitshaeder {
     font-family: "Roboto", sans-serif;
-        font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
@@ -102,3 +119,85 @@ img {
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
+/* ========== /Benefits section Style ========== */
+
+/* ========== Team section Style ========== */
+.team {
+
+}
+.teamhaeder {
+    font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11111;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        text-align: center;
+} 
+
+.nameteam {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.jobtitel {
+    font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+        text-align: center;
+}
+/* ========== /Team section Style ========== */
+
+/* ========== Portfolio section Style ========== */
+.portfolio {
+
+}
+
+.portfolioheader {
+    font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11111;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        text-align: center;
+}
+.portfolioname {
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+
+}
+
+.portfoliodescription {
+    font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+/* ========== /section Style ========== */
+
+/* ========== footer Style ========== */
+.footerdescriptio {
+    background-color: #2e2f42;
+}
+.description {
+    font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #f4f4fd;
+
+}
+/* ========== /footer Style ========== */
