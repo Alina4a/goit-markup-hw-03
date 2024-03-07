@@ -20,14 +20,7 @@ body {
 
 button {
     cursor: pointer;
-    width: Hug (169px);
-    height: Hug (56px);
-    top: 88px;
-    left: 20px;
-    padding: 16px, 32px, 16px, 32px;
     border: none;
-    border-radius: 4px; 
-    gap: 10px;
     color: white;
     background: #404BBF;
     line-height: 1.5;
@@ -36,8 +29,6 @@ button {
 
 button:hover,
 button:focus {
-    width: Hug (170px);
-    height: Hug (51px);
     border: none;
     color: white;
     background: #404BBF;
@@ -63,7 +54,7 @@ img {
 }
 
 .text-blau {
-    color: #2e2f42;
+    color: #f4f4fd;
 }
 
 .list-adress {
@@ -96,7 +87,7 @@ img {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: #2e2f42;
 
 }
 
