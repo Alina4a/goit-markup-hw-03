@@ -11,10 +11,11 @@ a {
 
 
 body {
+    color: #434455;
+    background-color: #FFFFFF;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
-    color: #434455
-    background-color: #FFFFFF;
+
 }
 
 button {
@@ -29,6 +30,8 @@ button {
     gap: 10px;
     color: white;
     background: #404BBF;
+    line-height: 1.5;
+    letter-spacing: 0.04em
 }
 
 button:hover,
@@ -37,7 +40,7 @@ button:focus {
     height: Hug (51px);
     border: none;
     color: white;
-    background: #4D5AE5;
+    background: #404BBF;
 }
 
 img {
@@ -50,17 +53,17 @@ img {
 
 .logo {
     font-family: "Raleway", sans-serif;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 1.16667;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #4d5ae5;
+    line-height: 1.17;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
         
 }
 
 .text-blau {
-    color: #2e2f42;
+    color: #f4f4fd;
 }
 
 .list-adress {
@@ -88,12 +91,12 @@ img {
 }
 
 .menu-link{
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #434455;
 
 }
 
@@ -144,11 +147,10 @@ img {
 }
 
 .benefits-description {
-    
+    color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: : #434455;
 }
 /* ========== /Benefits section Style ========== */
 
@@ -169,7 +171,7 @@ img {
 } 
 
 .itemteam {
-    color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 .nameteam {
     color: #2e2f42;
@@ -181,6 +183,7 @@ img {
 }
 
 .jobtitel {
+    color: #434455;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -215,7 +218,7 @@ img {
 }
 
 .portfoliodescription {
-    
+    color: #434455;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
