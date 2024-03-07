@@ -20,7 +20,7 @@ body {
 
 button {
     cursor: pointer;
-    border: none;
+  
     color: white;
     background: #404BBF;
     line-height: 1.5;
@@ -29,13 +29,13 @@ button {
 
 button:hover,
 button:focus {
-    border: none;
+    
     color: white;
     background: #404BBF;
 }
 
 img {
-    display: block;
+    
 }
 
 /* ========== /Common Style ========== */
@@ -55,6 +55,10 @@ img {
 
 .text-blau {
     color: #2e2f42;
+}
+
+.text-span {
+    color: #f4f4fd;
 }
 
 .list-adress {
