@@ -1,14 +1,21 @@
 /* ========== Common Style ========== */
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 ul,
 ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
     list-style-type: none;
 }
 
 a {
     text-decoration: none;
+    color: inherit;
 }
-
-
 
 body {
     background-color: #FFFFFF;
@@ -23,7 +30,14 @@ button {
     color: white;
     background: #404BBF;
     line-height: 1.5;
-    letter-spacing: 0.04em
+    letter-spacing: 0.04em;
+    border: none;
+    border-radius: 4px;
+    min-width: 169px;
+    padding-left: 636px;
+    padding-right: 635px;
+  
+
 }
 
 button:hover,
@@ -34,13 +48,32 @@ button:focus {
 }
 
 img {
-    
+   display: block; 
+}
+
+.container {
+    width: 1580px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* ========== /Common Style ========== */
 
 /* ========== Page header Style ========== */
+.page-header {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.page-header-container {
+    display: flex;
+}
 
+.page-nav {
+    display: flex;
+    justify-content: space-between;
+}
 .logo {
     font-family: "Raleway", sans-serif;
     line-height: 1.17;
@@ -48,14 +81,19 @@ img {
     font-size: 18px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
-        
+    color: #4d5ae5; 
+    margin-right: 76px;    
 }
 
 .text-blau {
     color: #2e2f42;
 }
 
+.menu {
+    display: flex;
+    column-gap: 40px;
+
+}
 .text-span {
     color: #f4f4fd;
 }
@@ -97,17 +135,18 @@ img {
     color: #404BBF;
 }
 
-.buthero {
-    background-color: #4D5AE5;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-}
-
 /* ========== /Page header Style ========== */
 
 /* ========== Hero section Style ========== */
+/* .hero-container {
+    padding-top: 166px;
+    padding-bottom: 292px;
+    padding-left: 472px;
+    padding-right: 472px;
+    height: 600px;
+} */
 .main-title {
-
+   max-width: 496px;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07143;
@@ -120,15 +159,56 @@ img {
 
 .hero {
     background-color: #2e2f42;
+    padding-top: 166px;
+    padding-bottom: 292px;
+    padding-left: 472px;
+    padding-right: 472px;
+    height: 600px;
+    margin-bottom: 48px;
 }
 
+.buthero {
+    min-width: 169px;
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    padding-left: 32px;
+    padding-right: 32px;
+    height: 56px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
 /* ========== /Hero section Style ========== */
 
 /* ========== Benefits section Style ========== */
-.benefits {
+.container-benefits {
+    padding-left: 156px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-right: 156px;
+}
+/* .benefits {
+    max-width: 1128px;
+    height: 104px;
+    padding-left: 156px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-right: 156px;
+} */
 
+.list-benefits {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
 }
 
+.list-benefits-item {
+    width: 264px;
+    height: 104px;
+
+}
 .benefitshaeder {
     
     font-size: 20px;
@@ -136,6 +216,7 @@ img {
     letter-spacing: 0.02em;
     color: #2e2f42;
     font-weight: 500;
+    margin-bottom: 8px;
 }
 
 .benefits-description {
@@ -151,6 +232,11 @@ img {
     background-color: #F4F4FD;
 
 }
+
+.container-team {
+    
+
+}
 .teamhaeder {
     color: #2e2f42;
     font-weight: 700;
@@ -160,11 +246,34 @@ img {
     text-transform: capitalize;
     text-align: center;
     line-height: 1.11;
+    margin-top: 120px;
+    margin-bottom: ;
+    margin-left: 639px;
+    margin-right: 639px;
+    padding-top: 120px;
+    padding-bottom: 72px;
+
 } 
 
-.itemteam {
-    background-color: #FFFFFF;
+.list-team {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
 }
+
+.itemteam {
+
+    background-color: #FFFFFF;
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    width: calc((100% - 72) / 4);
+    height: 380px;
+    /* margin-top: 120px; */
+   
+}
+
+
 .nameteam {
     color: #2e2f42;
     font-size: 20px;
@@ -189,6 +298,11 @@ img {
     
 }
 
+.list-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
 .portfolioheader {
     color: #2e2f42;
     font-weight: 700;
@@ -220,6 +334,9 @@ img {
 .item-list {
     background-color: #FFFFFF;
     font-weight: 500;
+    border: 1px solid #e7e9fc;
+    width: 360px;
+    height: 420px;
 }
 
 /* ========== /section Style ========== */
@@ -227,6 +344,8 @@ img {
 /* ========== footer Style ========== */
 .footerdescriptio {
     background-color: #2e2f42;
+    width: 1440px;
+    height: 312px;
 }
 .description {
     font-weight: 400;
@@ -234,6 +353,10 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+
+}
+
+.footer-container {
 
 }
 /* ========== /footer Style ========== */
