@@ -1,14 +1,26 @@
 /* ========== Common Style ========== */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 ul,
 ol {
     list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 
 a {
     text-decoration: none;
 }
-
-
 
 body {
     background-color: #FFFFFF;
@@ -23,7 +35,12 @@ button {
     color: white;
     background: #404BBF;
     line-height: 1.5;
-    letter-spacing: 0.04em
+    letter-spacing: 0.04em;
+    border: none;
+    border-radius: 4px;
+    min-width: 169px;
+    padding-left: 636px;
+    padding-right: 635px;
 }
 
 button:hover,
@@ -34,13 +51,37 @@ button:focus {
 }
 
 img {
-    
+    display: block;
+    margin-bottom: 32px;
 }
 
+address {
+    font-style: normal;
+}
+.container{
+    width: 1128px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 /* ========== /Common Style ========== */
 
 /* ========== Page header Style ========== */
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 
+.header-flax {
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+}
 .logo {
     font-family: "Raleway", sans-serif;
     line-height: 1.17;
@@ -97,12 +138,21 @@ img {
     color: #404BBF;
 }
 
-.buthero {
-    background-color: #4D5AE5;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-}
+.header-nav {
+    display: flex;
+    gap: 76px;   
 
+}
+.header-menu-list {
+    display: flex;
+    gap: 40px;
+   
+}
+.munu-list-adress {
+    display: flex;
+    gap: 40px;
+
+}
 /* ========== /Page header Style ========== */
 
 /* ========== Hero section Style ========== */
@@ -114,19 +164,40 @@ img {
     letter-spacing: 0.02em;
     color: #ffff;
     text-align: center;
-    line-height: 1.07;
-        
+    line-height: 1.07; 
+    max-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+       
 }
 
 .hero {
     background-color: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
+   
 }
 
+.buthero {
+    min-width: 169px;
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    padding-left: 32px;
+    padding-right: 32px;
+    height: 56px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 /* ========== /Hero section Style ========== */
 
 /* ========== Benefits section Style ========== */
-.benefits {
 
+.benefits {
+    display: flex;
+    gap: 24px;
+    width: calc((100% - 72) / 4);
 }
 
 .benefitshaeder {
@@ -136,6 +207,7 @@ img {
     letter-spacing: 0.02em;
     color: #2e2f42;
     font-weight: 500;
+    margin-bottom: 8px;
 }
 
 .benefits-description {
@@ -160,10 +232,16 @@ img {
     text-transform: capitalize;
     text-align: center;
     line-height: 1.11;
+    margin-bottom: 79px;
 } 
 
+.team-disply {
+  display: flex;
+  gap: 24px;
+}
 .itemteam {
     background-color: #FFFFFF;
+    border-bottom: 1px solid #000;;
 }
 .nameteam {
     color: #2e2f42;
@@ -181,6 +259,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 32px;
 }
 /* ========== /Team section Style ========== */
 
@@ -188,7 +267,12 @@ img {
 .portfolio {
     
 }
-
+.portfolio-disply {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 56px 24px;
+    width: calc((100% - 48) / 3);
+}
 .portfolioheader {
     color: #2e2f42;
     font-weight: 700;
@@ -198,6 +282,8 @@ img {
     text-transform: capitalize;
     text-align: center;
     line-height: 1.11;
+    margin-bottom: 72px;
+    font-family: "Roboto", sans-serif;
 }
 .portfolioname {
     color: #2e2f42;
@@ -206,6 +292,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     font-weight: 500;
+    margin-left: 8px;
 
 }
 
@@ -220,13 +307,17 @@ img {
 .item-list {
     background-color: #FFFFFF;
     font-weight: 500;
+
 }
+
 
 /* ========== /section Style ========== */
 
 /* ========== footer Style ========== */
 .footerdescriptio {
     background-color: #2e2f42;
+    padding-top: 100px;
+        padding-bottom: 100px;
 }
 .description {
     font-weight: 400;
@@ -234,6 +325,9 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+   max-width: 264px;
+   padding-top: 16px;
+
 
 }
 /* ========== /footer Style ========== */
