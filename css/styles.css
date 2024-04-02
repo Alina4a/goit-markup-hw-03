@@ -269,7 +269,7 @@ address {
 .team-description {
     padding: 32px 0;
 text-align: center;
-margin-bottom: 8px;
+
 }
 
 .nameteam {
@@ -279,6 +279,7 @@ margin-bottom: 8px;
     letter-spacing: 0.02em;
     text-align: center;
     font-weight: 500;
+    margin-bottom: 8px
 }
 
 .jobtitel {
@@ -300,6 +301,7 @@ margin-bottom: 8px;
     display: flex;
     flex-wrap: wrap;
     gap: 56px 24px;
+   
    
 }
 .portfolioheader {
@@ -336,7 +338,11 @@ margin-bottom: 8px;
     background-color: #FFFFFF;
     font-weight: 500;
     row-gap: 48px;
+    
     width: calc((100% - 48px) / 3);
+}
+.item-list-portfolio {
+    margin-bottom: 48px
 }
 .portfolio-text {
     padding: 32px 16px;
