@@ -301,6 +301,7 @@ text-align: center;
     display: flex;
     flex-wrap: wrap;
     gap: 56px 24px;
+    row-gap: 48px;
    
    
 }
@@ -315,6 +316,7 @@ text-align: center;
     line-height: 1.11;
     margin-bottom: 72px;
     font-family: "Roboto", sans-serif;
+ 
 }
 .portfolioname {
     color: #2e2f42;
@@ -323,6 +325,7 @@ text-align: center;
     line-height: 1.2;
     letter-spacing: 0.02em;
     font-weight: 500;
+    margin-bottom: 8px
 
 }
 
@@ -337,7 +340,7 @@ text-align: center;
 .item-list {
     background-color: #FFFFFF;
     font-weight: 500;
-    row-gap: 48px;
+    
     
     width: calc((100% - 48px) / 3);
 }
