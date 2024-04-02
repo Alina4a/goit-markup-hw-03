@@ -52,7 +52,6 @@ button:focus {
 
 img {
     display: block;
-    margin-bottom: 32px;
 }
 
 address {
@@ -73,8 +72,6 @@ address {
 
 /* ========== Page header Style ========== */
 .header {
-    padding-top: 24px;
-    padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc;
 }
 
@@ -83,6 +80,7 @@ address {
     justify-content: space-between;
    align-items: center;
 }
+
 .logo {
     font-family: "Raleway", sans-serif;
     line-height: 1.17;
@@ -132,7 +130,7 @@ address {
     letter-spacing: 0.02em;
     color: #2e2f42;
     padding: 24px 0;
-
+    display: block;
 }
 
 .menu-link:hover,
@@ -142,7 +140,6 @@ address {
 
 .header-nav {
     display: flex;
-    gap: 76px;
     align-items: center;
 
 }
@@ -344,14 +341,12 @@ text-align: center;
     
     width: calc((100% - 48px) / 3);
 }
-.item-list-portfolio {
-    margin-bottom: 48px
-}
+.item-list-portfolio {}
+
 .portfolio-text {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px
 }
 
 
@@ -373,14 +368,13 @@ text-align: center;
     letter-spacing: 0.02em;
     color: #f4f4fd;
    max-width: 264px;
-   padding-top: 16px;
-
 
 }
 
 .logo-footer {
     display: inline-block;
     margin-bottom: 16px;
+    margin-right: 0;
 }
 
 /* ========== /footer Style ========== */
