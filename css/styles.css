@@ -204,7 +204,7 @@ address {
 .benefits {
     display: flex;
     gap: 24px;
-    /* width: calc((100% - 72) / 4); */
+
 }
 .li-benefits {
     width: calc((100% - 72px) / 4);
@@ -247,13 +247,29 @@ address {
 .team-disply {
   display: flex;
   gap: 24px;
-  width: calc((100% - 72px) / 4);
 }
 .itemteam {
     background-color: #FFFFFF;
     border-bottom: 1px solid #e7e9fc;
-    
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+
 }
+
+.team-description {
+    padding: 32px 0;
+
+}
+
+.name-team-text {
+text-align: center;
+margin-bottom: 8px;
+}
+
+.team-text {
+text-align: center;
+}
+
 .nameteam {
     color: #2e2f42;
     font-size: 20px;
@@ -270,7 +286,7 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-    margin-bottom: 32px;
+   
 }
 /* ========== /Team section Style ========== */
 
@@ -282,7 +298,7 @@ address {
     display: flex;
     flex-wrap: wrap;
     gap: 56px 24px;
-    width: calc((100% - 48) / 3);
+   
 }
 .portfolioheader {
     color: #2e2f42;
@@ -318,9 +334,19 @@ address {
 .item-list {
     background-color: #FFFFFF;
     font-weight: 500;
-
+    row-gap: 48px;
+    width: calc((100% - 48px) / 3);
+}
+.portfolio-text {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px
 }
 
+.portfolio-text-title {}
+
+.portfolio-text-description {}
 
 /* ========== /section Style ========== */
 
@@ -330,6 +356,8 @@ address {
     padding-top: 100px;
         padding-bottom: 100px;
 }
+
+
 .description {
     font-weight: 400;
     font-size: 16px;
@@ -341,4 +369,11 @@ address {
 
 
 }
+
+.logo-footer {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
 /* ========== /footer Style ========== */
+
