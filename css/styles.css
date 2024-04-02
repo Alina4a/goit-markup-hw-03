@@ -59,7 +59,7 @@ address {
     font-style: normal;
 }
 .container{
-    width: 1128px;
+    width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -90,7 +90,7 @@ address {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-        
+    margin-right: 76px;
 }
 
 .text-blau {
@@ -130,6 +130,7 @@ address {
     font-weight: 500;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
 
 }
 
@@ -140,17 +141,20 @@ address {
 
 .header-nav {
     display: flex;
-    gap: 76px;   
+    gap: 76px;
+    align-items: center;
 
 }
 .header-menu-list {
     display: flex;
     gap: 40px;
+    align-items: center;
    
 }
 .munu-list-adress {
     display: flex;
     gap: 40px;
+    align-items: center;
 
 }
 /* ========== /Page header Style ========== */
@@ -193,13 +197,18 @@ address {
 /* ========== /Hero section Style ========== */
 
 /* ========== Benefits section Style ========== */
+.visibility-hidden {
+    visibility: hidden;
+}
 
 .benefits {
     display: flex;
     gap: 24px;
-    width: calc((100% - 72) / 4);
+    /* width: calc((100% - 72) / 4); */
 }
-
+.li-benefits {
+    width: calc((100% - 72px) / 4);
+}
 .benefitshaeder {
     
     font-size: 20px;
@@ -232,16 +241,18 @@ address {
     text-transform: capitalize;
     text-align: center;
     line-height: 1.11;
-    margin-bottom: 79px;
+    margin-bottom: 72px;
 } 
 
 .team-disply {
   display: flex;
   gap: 24px;
+  width: calc((100% - 72px) / 4);
 }
 .itemteam {
     background-color: #FFFFFF;
-    border-bottom: 1px solid #000;;
+    border-bottom: 1px solid #e7e9fc;
+    
 }
 .nameteam {
     color: #2e2f42;
